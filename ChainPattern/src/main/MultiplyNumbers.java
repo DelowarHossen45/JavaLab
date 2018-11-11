@@ -11,16 +11,16 @@ public class MultiplyNumbers implements Chain {
 	}
 
 	@Override
-	public void calculate(Numbers requests) {
-		// TODO Auto-generated method stub
-		if(requests.getCalculationWanted() == "mult") {
-			System.out.println(requests.getNumber1() + " * " + requests.getNumber2()
-			+"="+(requests.getNumber1()*requests.getNumber2()));
+	public double calculate(Numbers requests) {
+		if(requests.getCalculationWanted() == "mul") {
+			return (requests.getNumber1()*requests.getNumber2());
 		}
 		else {
 			nextInChain.calculate(requests);
+
 			
 		}
+		return -1;
 
 	}
 

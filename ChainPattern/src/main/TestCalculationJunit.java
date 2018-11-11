@@ -16,9 +16,9 @@ class TestCalculationJunit {
 		chainCalc2.setNextChain(chainCalc3);
 		chainCalc3.setNextChain(chainCalc4);
 		assertEquals(6.0,chainCalc1.calculate(new Numbers(4,2,"add")),"");
-		//assertEquals(2.0,chainCalc1.calculate(new Numbers(4,2,"sub")),"");
-		//assertEquals(8.0,chainCalc1.calculate(new Numbers(4,2,"mul")),"");
-		//assertEquals(2.0,chainCalc1.calculate(new Numbers(4,2,"divide")),"");
+		assertEquals(2.0,chainCalc1.calculate(new Numbers(4,2,"sub")),"");
+		assertEquals(8.0,chainCalc1.calculate(new Numbers(4,2,"mul")),"");
+		assertEquals(2.0,chainCalc1.calculate(new Numbers(4,2,"divide")),"");
 
 
 

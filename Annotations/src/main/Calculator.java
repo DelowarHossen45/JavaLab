@@ -4,7 +4,7 @@ package main;
  * Calculator class implement that
  * simplify addition of two given double and Print
  * simplify multiplication of two given double and Print
- * simplify substration of two given double and Print
+ * simplify substraction of two given double and Print
  * simplify modulus of two given double and Print
  * @author Delowar Hossen Apple
  *@version 1.0
@@ -50,7 +50,7 @@ public class Calculator
 		double sum,mul,sub;
 		/**
 		 * CalculatingSum method call
-		 *print summation of two double prameter
+		 *print summation of two double parameter
 		 */
 		sum=CalculatingSum(10,20);
 		System.out.println(sum);
@@ -68,3 +68,4 @@ public class Calculator
 		System.out.println(mul);
 	}
 }
+ 

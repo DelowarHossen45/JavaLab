@@ -13,7 +13,7 @@
    <children>
       <VBox minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" spacing="10.0">
          <children>
-            <StackPane prefHeight="50.0" prefWidth="200.0">
+            <StackPane fx:id="result" prefHeight="50.0" prefWidth="200.0">
                <children>
                   <Label prefHeight="27.0" prefWidth="222.0" textFill="#ba1109">
                      <font>

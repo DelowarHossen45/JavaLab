@@ -46,6 +46,16 @@ public class QuestionNumber1
 		{
 			System.out.print(d[i]+ " ");
 		}
+		System.out.println();
+		int e[]= {1,2,3,4,5,4,3,2,1,0};
+		for(i=1;i<10;i++)
+		{
+			e[i]=e[i]+e[i-1];
+		}
+		for(i=0;i<10;i++)
+		{
+			System.out.print(e[i]+ " ");
+		}
 	}
 
 }

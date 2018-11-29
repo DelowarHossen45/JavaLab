@@ -56,6 +56,16 @@ public class QuestionNumber1
 		{
 			System.out.print(e[i]+ " ");
 		}
+		System.out.println();
+		int f[]= {1,2,3,4,5,4,3,2,1,0};
+		for(i=0;i<10;i=i+2)
+		{
+			f[i]=0;
+		}
+		for(i=0;i<10;i++)
+		{
+			System.out.print(f[i]+ " ");
+		}
 	}
 
 }

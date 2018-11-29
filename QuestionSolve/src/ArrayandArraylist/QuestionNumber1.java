@@ -36,6 +36,16 @@ public class QuestionNumber1
 		{
 			System.out.print(c[i]+ " ");
 		}
+		System.out.println();
+		int d[]= {1,2,3,4,5,4,3,2,1,0};
+		for(i=8;i>=0;i--)
+		{
+			d[i]=d[i+1];
+		}
+		for(i=0;i<10;i++)
+		{
+			System.out.print(d[i]+ " ");
+		}
 	}
 
 }

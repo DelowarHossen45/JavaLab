@@ -76,6 +76,16 @@ public class QuestionNumber1
 		{
 			System.out.print(g[i]+ " ");
 		}
+		System.out.println();
+		int h[]= {1,2,3,4,5,4,3,2,1,0};
+		for(i=1;i<5;i++)
+		{
+			h[i]=h[9-i];
+		}
+		for(i=0;i<10;i++)
+		{
+			System.out.print(h[i]+ " ");
+		}
 	}
 
 }

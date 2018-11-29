@@ -8,6 +8,7 @@ public class MainController
 {
 	@FXML
 	private Label result;
+	
 	private long number1=0;
 	private String operator="";
 	private boolean start=true;

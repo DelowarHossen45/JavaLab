@@ -12,7 +12,7 @@ public class QuestionNumber1
 		{
 			a[i]=a[i-1];
 		}
-		for(i=1;i<10;i++)
+		for(i=0;i<10;i++)
 		{
 			System.out.print(a[i]+ " ");
 		}
@@ -22,9 +22,19 @@ public class QuestionNumber1
 		{
 			b[i]=b[i-1];
 		}
-		for(i=1;i<10;i++)
+		for(i=0;i<10;i++)
 		{
 			System.out.print(b[i]+ " ");
+		}
+		System.out.println();
+		int c[]= {1,2,3,4,5,4,3,2,1,0};
+		for(i=0;i<9;i++)
+		{
+			c[i]=c[i+1];
+		}
+		for(i=0;i<10;i++)
+		{
+			System.out.print(c[i]+ " ");
 		}
 	}
 
